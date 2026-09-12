@@ -9,16 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=5" />
+    <link rel="stylesheet" href="styles.css?v=6" />
   </head>
   <body>
     <header class="nav">
-      <a class="logo" href="#top">Benjamin<span>.</span></a>
-      <button class="menu" id="menu" aria-label="Menu"><span></span><span></span><span></span></button>
-      <nav class="nav-links" id="nav-links">
-        <a href="#work">Work</a><a href="#about">About</a><a href="#stack">Stack</a><a href="#contact">Contact</a>
-        <a class="btn btn-solid" href="#contact">Hire me</a>
-      </nav>
+      <div class="wrap nav-inner">
+        <a class="logo" href="#top">Benjamin<span>.</span></a>
+        <button class="menu" id="menu" aria-label="Menu"><span></span><span></span><span></span></button>
+        <nav class="nav-links" id="nav-links">
+          <a href="#work">Work</a><a href="#about">About</a><a href="#stack">Stack</a><a href="#contact">Contact</a>
+          <a class="btn btn-solid" href="#contact">Hire me</a>
+        </nav>
+      </div>
     </header>
     <main id="top">
       <section class="hero">
@@ -31,10 +33,12 @@
         </div>
         <p class="meta" data-aos="fade-up">Lagos, Nigeria · Websites, stores, dashboards, custom tools</p>
       </section>
-      <div class="ticker" aria-hidden="true">
-        <div class="ticker-track">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span><span>Node.js</span><span>Supabase</span><span>MongoDB</span><span>MySQL</span><span>Prisma</span><span>Zustand</span><span>Zod</span><span>Vercel</span><span>GitHub</span>
-          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span><span>Node.js</span><span>Supabase</span><span>MongoDB</span><span>MySQL</span><span>Prisma</span><span>Zustand</span><span>Zod</span><span>Vercel</span><span>GitHub</span>
+      <div class="wrap">
+        <div class="ticker" aria-hidden="true">
+          <div class="ticker-track">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span><span>Node.js</span><span>Supabase</span><span>MongoDB</span><span>MySQL</span><span>Prisma</span><span>Zustand</span><span>Zod</span><span>GitHub</span>
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span><span>Node.js</span><span>Supabase</span><span>MongoDB</span><span>MySQL</span><span>Prisma</span><span>Zustand</span><span>Zod</span><span>GitHub</span>
+          </div>
         </div>
       </div>
       <section id="work" class="section">
@@ -74,14 +78,14 @@
         <h2 data-aos="fade-up">Tools I build with.</h2>
         <div class="marquee">
           <div class="marquee-track">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span><span>Node.js</span><span>Supabase</span><span>MongoDB</span><span>MySQL</span><span>Prisma</span><span>Vercel</span><span>GitHub</span>
-            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span><span>Node.js</span><span>Supabase</span><span>MongoDB</span><span>MySQL</span><span>Prisma</span><span>Vercel</span><span>GitHub</span>
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span><span>Node.js</span><span>Supabase</span><span>MongoDB</span><span>MySQL</span><span>Prisma</span><span>GitHub</span>
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span><span>Node.js</span><span>Supabase</span><span>MongoDB</span><span>MySQL</span><span>Prisma</span><span>GitHub</span>
           </div>
         </div>
         <div class="stack">
           <div data-aos="fade-right"><p class="stack-label">Frontend</p><div class="pills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span></div></div>
           <div data-aos="fade-up"><p class="stack-label">Backend & data</p><div class="pills"><span>Node.js</span><span>Supabase</span><span>MongoDB</span><span>MySQL</span><span>Prisma</span></div></div>
-          <div data-aos="fade-left"><p class="stack-label">Product</p><div class="pills"><span>Zustand</span><span>React Hook Form</span><span>Zod</span><span>Vercel</span><span>Git & GitHub</span></div></div>
+          <div data-aos="fade-left"><p class="stack-label">Product</p><div class="pills"><span>Zustand</span><span>React Hook Form</span><span>Zod</span><span>Git & GitHub</span></div></div>
         </div>
       </section>
       <section id="contact" class="section">
